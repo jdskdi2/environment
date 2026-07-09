@@ -1,13 +1,3 @@
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-	Plugin 'VundleVim/Vundle.vim'
-	Plugin 'tComment'
-	Plugin 'The-NERD-tree'
-	Plugin 'Mark'
-	Plugin 'AutoClose'
-
-call vundle#end()
-
 let mapleader=","
 
 "custom map"
@@ -49,14 +39,5 @@ nnoremap <C-l> o<ESC>
 " Disable highlighted search word.
 nmap t :let @/=""<CR>
 
-" NERDTree configuration
-nmap <C-j><C-j> :NERDTreeToggle<CR>
-nmap <C-/> :TComment<CR>
-
 set nocompatible
-
-" Plugin Mapping
-map <F4> <Plug>MarkClear
-map <F5> <Plug>MarkSet
-
 
